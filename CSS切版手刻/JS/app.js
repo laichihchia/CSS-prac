@@ -10,7 +10,7 @@ window.addEventListener("scroll",()=>{
 });
 let headerSm = document.querySelector('.header-navbar');
 window.addEventListener("scroll",()=>{
-    if(window.pageYOffset !=0){
+    if(window.pageYOffset > 60){
         headerSm.style.backgroundColor = "rgba(0,0,0,0.7)";
     }
     else{

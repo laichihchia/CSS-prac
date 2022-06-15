@@ -493,6 +493,9 @@ table {
         text-decoration: none;
         color: white;
     }
+    .mail-contact i{
+        color: white;
+    }
 }
 // -------------- footer-mail     ------------------------
 // -------------- footer-list     ------------------------
@@ -701,11 +704,6 @@ table {
             a{
                 text-decoration: none;
                 color: white;
-                display: flex;
-                align-items: center;
-                svg{
-                    margin-left: 5px;
-                }
             }
         }
     }
